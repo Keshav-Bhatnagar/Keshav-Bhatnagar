@@ -1,4 +1,4 @@
-![logo]( https://github.com/Ashutosh-PMishra)
+![logo]
 ## Hi there 👋
 
 <!--
