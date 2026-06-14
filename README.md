@@ -67,38 +67,38 @@ A complete hostel booking and management platform.
 
 ---
 
-### 🗳️ Secure Online Election Platform
 
-A secure digital voting system designed for transparency and efficiency.
 
-**Features**
+### ⛓️ Blockchain-Based Online Election Platform
 
-* Authentication & Authorization
-* Vote Casting
-* Result Generation
-* Admin Controls
+A secure, transparent, and scalable election ecosystem leveraging blockchain technology, dynamic GIS mapping, and decentralized audit trails to ensure tamper-proof voting and verifiable election results.
 
-**Tech Stack**
-`Flask` `MySQL`
+**Key Highlights**
 
----
-
-### ⛓️ Blockchain Voting Application
-
-Decentralized voting powered by smart contracts.
-
-**Features**
-
-* Wallet Integration
-* Smart Contract Voting
-* Transparent Vote Verification
-* Gasless Transactions
+* Multi-Tier Identity Architecture supporting Central Admin, Returning Officer, Electoral Registry, and Presiding Officer roles.
+* Dynamic OpenStreetMap integration using Overpass API for real-time municipal and constituency mapping.
+* Pan-India Electoral Seeding Framework designed for scalability across 543 Parliamentary Constituencies.
+* Cryptographic voter onboarding and structured identity verification pipelines.
+* Solidity-powered smart contracts ensuring immutable vote recording and transparent auditing.
+* Rule 49P Tendered Ballot simulation for advanced election workflow modeling.
+* Scope-based interface filtering for national, state, and municipal election management.
 
 **Tech Stack**
-`React` `Next.js` `Blockchain`
 
+* Frontend: React.js
+* Backend: Node.js, Express.js
+* Database: MongoDB, Mongoose
+* Blockchain: Solidity, Ethers.js
+* Network: Hardhat, Ganache
+* GIS Services: OpenStreetMap Overpass API
+
+**Impact**
+
+* Reduced manual electoral configuration through automated GIS-based data generation.
+* Eliminated duplicate-key conflicts using optimized schema validation strategies.
+* Delivered tamper-proof election records through blockchain-backed transaction verification.
+* Built a scalable architecture capable of supporting large-scale electoral simulations.
 ---
-
 ### ✈️ Flight Price Prediction System
 
 Machine learning model for predicting airline ticket prices.
