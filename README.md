@@ -125,16 +125,6 @@ Problem Solving Daily
 
 ---
 
-## 🎯 2026 Goals
-
-* Solve 1000+ DSA Problems
-* Master System Design
-* Contribute to Open Source
-* Build SaaS Products
-* Achieve 16+ LPA Placement
-
----
-
 ## 📈 GitHub Stats
 
 <div align="center">
