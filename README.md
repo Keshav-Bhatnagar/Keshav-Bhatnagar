@@ -1,6 +1,9 @@
 <div align="center">
   <img src="banner.svg" alt="Keshav Bhatnagar — animated GitHub profile banner" width="100%">
 </div>
+<!-- <div align="center">
+  <img src="profile-focus.svg" alt="Keshav Bhatnagar engineering focus areas" width="100%">
+</div> -->
 
 <div align="center">
 
@@ -10,7 +13,7 @@
 [![GeeksforGeeks](https://img.shields.io/badge/GFG-Practice-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](#)
 [![Gmail](https://img.shields.io/badge/Email-Say%20Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
 
-<sub>⚠️ links above are placeholders — swap the `#` for your real URLs</sub>
+<!-- <sub>⚠️ links above are placeholders — swap the `#` for your real URLs</sub> -->
 
 </div>
 
