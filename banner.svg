@@ -1,0 +1,108 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0E14"/>
+      <stop offset="55%" stop-color="#0D1220"/>
+      <stop offset="100%" stop-color="#0A0E14"/>
+    </linearGradient>
+
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5EEAD4"/>
+      <stop offset="55%" stop-color="#7DD3FC"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+
+    <pattern id="dotGrid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#1B2433"/>
+    </pattern>
+
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5EEAD4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#5EEAD4" stop-opacity="0"/>
+    </linearGradient>
+
+    <clipPath id="panelClip">
+      <rect x="0" y="0" width="1200" height="300" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#panelClip)">
+    <!-- base -->
+    <rect x="0" y="0" width="1200" height="300" fill="url(#bgGrad)"/>
+    <rect x="0" y="0" width="1200" height="300" fill="url(#dotGrid)"/>
+
+    <!-- ambient moving scan bar -->
+    <rect x="-200" y="0" width="140" height="300" fill="url(#scanGrad)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 1500 0; 1500 0" keyTimes="0;0.7;1"
+        dur="9s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- window chrome -->
+    <rect x="0" y="0" width="1200" height="42" fill="#0F141C"/>
+    <line x1="0" y1="42" x2="1200" y2="42" stroke="#1C2431" stroke-width="1"/>
+
+    <circle cx="26" cy="21" r="6" fill="#FF5F56"/>
+    <circle cx="46" cy="21" r="6" fill="#FFBD2E"/>
+    <circle cx="66" cy="21" r="6" fill="#27C93F"/>
+
+    <text x="600" y="26" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace"
+      font-size="13" fill="#5B6675">keshav@dev-machine:~</text>
+
+    <!-- border -->
+    <rect x="0.5" y="0.5" width="1199" height="299" rx="14" fill="none" stroke="#1C2431" stroke-width="1"/>
+  </g>
+
+  <!-- terminal body -->
+  <g font-family="JetBrains Mono, Consolas, monospace">
+
+    <!-- line 1: whoami -->
+    <text x="48" y="90" font-size="18" fill="#A78BFA">$</text>
+    <text x="66" y="90" font-size="18" fill="#C9D3DE">whoami</text>
+
+    <!-- name output, gradient, typewriter reveal -->
+    <g>
+      <clipPath id="nameClip">
+        <rect x="46" y="102" width="0" height="52">
+          <animate attributeName="width" values="0;620;620" keyTimes="0;0.45;1"
+            dur="9s" repeatCount="indefinite"/>
+        </rect>
+      </clipPath>
+      <text x="48" y="146" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="700"
+        fill="url(#nameGrad)" clip-path="url(#nameClip)">Keshav Bhatnagar</text>
+    </g>
+
+    <!-- line 2: cat focus.txt -->
+    <text x="48" y="188" font-size="16" fill="#A78BFA">$</text>
+    <text x="66" y="188" font-size="16" fill="#C9D3DE">cat focus.txt</text>
+
+    <!-- cycling roles -->
+    <g font-size="20" font-weight="500">
+      <text x="48" y="220" fill="#5EEAD4">
+        <animate attributeName="opacity" values="0;1;1;0;0;0;0;0;0" keyTimes="0;0.03;0.20;0.23;1;1;1;1;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+        &gt;&gt; AI &amp; ML Engineer in the making
+      </text>
+      <text x="48" y="220" fill="#7DD3FC">
+        <animate attributeName="opacity" values="0;0;0;1;1;0;0;0;0" keyTimes="0;0.23;0.26;0.29;0.45;0.48;1;1;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+        &gt;&gt; Full-Stack Developer, MERN
+      </text>
+      <text x="48" y="220" fill="#F0B429">
+        <animate attributeName="opacity" values="0;0;0;0;0;1;1;0;0" keyTimes="0;0.48;0.51;0.54;0.70;0.73;0.90;0.93;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+        &gt;&gt; Exploring Blockchain + GIS Systems
+      </text>
+      <text x="48" y="220" fill="#F87171">
+        <animate attributeName="opacity" values="0;0;0;0;0;0;0;1;1;0" keyTimes="0;0.73;0.76;0.79;0.94;0.97;1;1;1;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+        &gt;&gt; Building SafeDerm, AI skin diagnostics
+      </text>
+    </g>
+
+    <!-- blinking cursor -->
+    <rect x="510" y="204" width="11" height="20" fill="#5EEAD4">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- tagline -->
+    <text x="48" y="260" font-size="13" fill="#5B6675">Pre-Final Year B.E. &#183; Artificial Intelligence &amp; Machine Learning</text>
+  </g>
+</svg>
