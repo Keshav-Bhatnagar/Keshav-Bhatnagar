@@ -54,6 +54,38 @@ keshav@dev-machine:~$ cat /proc/tech_stack
 ---
 
 ```bash
+keshav@dev-machine:~$ ls -la ~/certifications
+```
+
+<table width="100%">
+<tr>
+<td width="33%" align="center">
+
+**🅰️ AI-900**
+Azure AI Fundamentals
+`Microsoft Certified`
+
+</td>
+<td width="33%" align="center">
+
+**🅰️ AZ-900**
+Azure Fundamentals
+`Microsoft Certified`
+
+</td>
+<td width="33%" align="center">
+
+**🅰️ DP-900**
+Azure Data Fundamentals
+`Microsoft Certified`
+
+</td>
+</tr>
+</table>
+
+---
+
+```bash
 keshav@dev-machine:~$ ls -la ~/projects --sort=impact
 ```
 
