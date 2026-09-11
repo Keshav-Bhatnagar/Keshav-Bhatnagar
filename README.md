@@ -27,7 +27,6 @@ keshav@dev-machine:~$ whoami
 💻 Full-Stack Developer building scalable web apps and AI-powered solutions
 🚀 Into Backend Development, Machine Learning, System Design & Blockchain
 🌱 Currently sharpening Data Structures & Algorithms and modern software architectures
-🎯 Goal: land a Software Development Engineer role at a top product-based company
 
 ---
 
