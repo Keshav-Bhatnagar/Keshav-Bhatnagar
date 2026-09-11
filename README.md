@@ -137,7 +137,7 @@ An AI-powered app that analyzes skin images to flag potential dermatological con
 <img src="https://img.shields.io/badge/In_Development-orange?style=for-the-badge" alt="SafeDerm in development"/>
 </p>
 
-<sub>⚠️ stack above is a placeholder — confirm/replace once finalized</sub>
+
 
 </td>
 
